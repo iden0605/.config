@@ -1,6 +1,6 @@
 # .config
 
-My macOS dev setup: apps, CLI tools, shell, terminal, editor and app settings. This repo lives at `~/.config`, the XDG config directory, so tools like nvim, zellij, alacritty, ghostty and ncspot read their config straight from it. Files that belong elsewhere in `$HOME` are symlinked in by `install.sh`.
+My macOS dev setup: apps, CLI tools, shell, terminal, editor and app settings. This repo lives at `~/.config`, the XDG config directory, so tools like nvim, zellij and ncspot read their config straight from it. Files that belong elsewhere in `$HOME` are symlinked in by `install.sh`.
 
 ## New machine
 
@@ -23,12 +23,11 @@ git clone https://github.com/iden0605/.config.git ~/.config   # back up any exis
 | Path | What |
 |---|---|
 | `Brewfile` | Homebrew taps, formulae, casks, npm globals, go tools |
-| `home/` | Dotfiles symlinked into `~` |
+| `home/` | Dotfiles symlinked into `~`, including `.wezterm.lua` (the terminal) |
 | `local-bin/` | Scripts symlinked into `~/.local/bin` |
 | `vscode/` | VS Code settings, keybindings, extension list |
 | `nvim/` | Neovim config (lazy.nvim, `lua/iden/...`) |
-| `zellij/` | Zellij config + `layouts/dev.kdl` (used by the `start` shell function) |
-| `alacritty/`, `ghostty/` | Alternate terminal configs (WezTerm is the main one, `home/.wezterm.lua`) |
+| `zellij/` | Zellij config (`config.kdl`) + `layouts/dev.kdl` (used by the `start` shell function) |
 | `ncspot/` | Terminal Spotify client keybindings |
 | `git/ignore` | Global gitignore |
 | `thefuck/`, `tmux/` | Misc tool config |

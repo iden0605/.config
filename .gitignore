@@ -8,9 +8,6 @@
 !/local-bin/
 !/vscode/
 !/nvim/
-!/wezterm/
-!/alacritty/
-!/ghostty/
 !/zellij/
 !/tmux/
 !/ncspot/
