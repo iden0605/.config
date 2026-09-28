@@ -12,9 +12,7 @@
 !/tmux/
 !/ncspot/
 !/git/
-!/karabiner/
 
 ncspot/*
 !ncspot/config.example.toml
-karabiner/automatic_backups/
 .DS_Store

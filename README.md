@@ -48,7 +48,6 @@ Some things `install.sh` can't do:
 
 - **Not installable via Homebrew:** Xcode (App Store), Visual Studio, Adobe Acrobat, Movavi Video Editor, GlobalProtect, Okta Verify, Trello, LockDown Browser, Hytale Launcher, NoxAppPlayer, Unity editor (via Unity Hub), GarageBand/iMovie/Keynote/Numbers/Pages (App Store).
 - **Raycast:** extensions come from the Raycast Store: Spotify Player, Color Picker, Kill Process, Google Chrome. For hotkeys and settings, use Raycast's Settings → Advanced → Export/Import (`.rayconfig`).
-- **Karabiner-Elements:** no config is currently in use. The last one is in git history (`git log -- karabiner/`).
 - **Node:** comes from Homebrew. NVM is optional and is loaded by `.zshrc` only if `~/.nvm` exists.
 - **Log into apps and CLIs** (see Secrets above).
 
