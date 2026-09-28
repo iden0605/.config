@@ -12,11 +12,9 @@
 !/tmux/
 !/ncspot/
 !/git/
-!/thefuck/
 !/karabiner/
 
 ncspot/*
 !ncspot/config.example.toml
-thefuck/__pycache__/
 karabiner/automatic_backups/
 .DS_Store

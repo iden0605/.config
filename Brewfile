@@ -81,8 +81,6 @@ brew "ripgrep"
 brew "rust"
 # Easiest, most secure way to use WireGuard and 2FA
 brew "tailscale"
-# Programmatically correct mistyped console commands
-brew "thefuck"
 # Command-line unarchiving tools supporting multiple formats
 brew "unar"
 # Extremely fast Python package installer and resolver, written in Rust

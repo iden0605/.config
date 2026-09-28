@@ -103,13 +103,6 @@ export BAT_THEME=tokyonight_night
 alias ls="eza --icons=always"
 
 # -------------------------------
-# TheFuck (Command Correction)
-# -------------------------------
-
-eval "$(thefuck --alias)"
-eval "$(thefuck --alias fk)"
-
-# -------------------------------
 # Yazi File Manager
 # -------------------------------
 

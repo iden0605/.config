@@ -30,9 +30,9 @@ git clone https://github.com/iden0605/.config.git ~/.config   # back up any exis
 | `zellij/` | Zellij config (`config.kdl`) + `layouts/dev.kdl` (used by the `start` shell function) |
 | `ncspot/` | Terminal Spotify client keybindings |
 | `git/ignore` | Global gitignore |
-| `thefuck/`, `tmux/` | Misc tool config |
+| `tmux/` | Misc tool config |
 
-The shell stack is zsh + powerlevel10k + zsh-autosuggestions + zsh-syntax-highlighting + fzf (with fd/bat/eza previews) + zoxide + thefuck. Aliases and functions (`sp`, `start`, `stop`, `y`, etc.) are all in `home/.zshrc`.
+The shell stack is zsh + powerlevel10k + zsh-autosuggestions + zsh-syntax-highlighting + fzf (with fd/bat/eza previews) + zoxide. Aliases and functions (`sp`, `start`, `stop`, `y`, etc.) are all in `home/.zshrc`.
 
 ## Secrets (not in the repo)
 
