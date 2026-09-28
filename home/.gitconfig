@@ -1,0 +1,12 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = iden0605
+	email = 79390850+iden0605@users.noreply.github.com
+[core]
+	editor = code --wait
+[safe]
+	directory = *

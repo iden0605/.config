@@ -1,0 +1,25 @@
+# Allowlist: only the paths below are tracked
+/*
+!/.gitignore
+!/README.md
+!/install.sh
+!/Brewfile
+!/home/
+!/local-bin/
+!/vscode/
+!/nvim/
+!/wezterm/
+!/alacritty/
+!/ghostty/
+!/zellij/
+!/tmux/
+!/ncspot/
+!/git/
+!/thefuck/
+!/karabiner/
+
+ncspot/*
+!ncspot/config.example.toml
+thefuck/__pycache__/
+karabiner/automatic_backups/
+.DS_Store

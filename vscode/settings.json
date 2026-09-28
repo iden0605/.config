@@ -1,0 +1,42 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "liveServer.settings.CustomBrowser": "chrome",
+    "editor.tabSize": 2,
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
+    "diffEditor.maxComputationTime": 0,
+
+    "editor.hover.enabled": "on",
+    "editor.parameterHints.enabled": false,
+    "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+    },
+    "editor.inlineSuggest.enabled": true,
+    "javascript.suggest.enabled": true,
+    "typescript.suggest.enabled": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+    "kilo-code.allowedCommands": [
+        "git log",
+        "git diff",
+        "git show",
+        "npm test",
+        "npm install",
+        "tsc"
+    ],
+    "kilo-code.deniedCommands": [],
+    "chat.viewSessions.orientation": "stacked",
+    "git.autofetch": true,
+    "redhat.telemetry.enabled": true,
+    "chat.disableAIFeatures": true,
+    "js/ts.experimental.useTsgo": true
+}

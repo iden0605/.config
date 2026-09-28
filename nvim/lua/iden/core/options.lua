@@ -22,6 +22,10 @@ opt.smartcase = true -- if you include mixed case in your search, assumes you wa
 -- cursor line
 opt.cursorline = true -- highlight the current cursor line
 
+-- mouse click
+opt.mouse = "a" -- enable mouse in all modes
+opt.mousescroll = "ver:3,hor:6" -- smooth scroll speed
+
 -- appearance
 
 -- turn on termguicolors for nightfly colorscheme to work

@@ -1,0 +1,9 @@
+
+
+[keybindings]
+"Space" = "playpause"
+"r" = "shuffle"
+"w" = "volup 10"
+"s" = "voldown 10"
+"a" = "previous"
+"d" = "next"
