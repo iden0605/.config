@@ -75,7 +75,7 @@ return {
     -- custom: omnisharp (C#)
     vim.lsp.config("omnisharp", {
       capabilities = capabilities,
-      cmd = { "/Users/iden/.local/share/nvim/mason/bin/omnisharp" },
+      cmd = { vim.fn.stdpath("data") .. "/mason/bin/omnisharp" },
       enable_editorconfig_support = true,
       enable_roslyn_analyzers = true,
       organize_imports_on_format = true,

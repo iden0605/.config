@@ -40,7 +40,7 @@ bindkey '^[[B' history-search-forward
 # -------------------------------
 
 export PATH="$HOME/.rbenv/shims:$PATH"
-export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
+export PATH="${HOMEBREW_PREFIX:-/opt/homebrew}/opt/libpq/bin:$PATH"
 
 # -------------------------------
 # FZF Setup

@@ -1,6 +1,7 @@
 bradlc.vscode-tailwindcss
 burkeholland.simple-react-snippets
 catppuccin.catppuccin-vsc
+denoland.vscode-deno
 docker.docker
 formulahendry.auto-rename-tag
 golang.go

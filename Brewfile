@@ -95,6 +95,10 @@ brew "zoxide"
 brew "zsh-autosuggestions"
 # Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
+# Incredibly fast JavaScript runtime, bundler, transpiler and package manager
+brew "oven-sh/bun/bun"
+# AI coding agent, built for the terminal
+brew "anomalyco/tap/opencode"
 # Stripe CLI utility
 brew "stripe/stripe-cli/stripe", trusted: true
 # Supabase CLI
@@ -134,6 +138,7 @@ npm "vercel"
 npm "wrangler"
 # Apps
 cask "aldente"
+cask "blender"
 cask "brave-browser"
 cask "chatgpt"
 cask "claude"

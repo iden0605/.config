@@ -36,6 +36,9 @@ return {
         "prismals",
         "pyright",
         "dockerls",
+        "clangd",
+        "ts_ls",
+        "omnisharp",
       },
     })
 
